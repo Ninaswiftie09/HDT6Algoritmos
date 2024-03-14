@@ -7,7 +7,7 @@ public class HashUnitTest {
 
     public static void testOrganicHashFunction() {
         HashFunction hashFunction = new OrganicHashFunction();
-        String data = "Hello, world!";
+        String data = "Prueba";
         String hashedData = hashFunction.hash(data);
         if (data.equals(hashedData)) {
             System.out.println("OrganicHashFunction funciona.");
